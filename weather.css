@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+@keyframes color {
+    0%   { background: #011f34; }
+    20%  { background: #001419; }
+    40%  { background: #01170e; }
+    60%  { background: #130024; }
+    80%  { background: #190025; }
+    100% { background: #011a45; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+  h1{
+    color: #fff;    
+  }
+  
+.img-card{
+    width:100%;
+    height: 200px;
+    object-fit:cover; 
+}
+.heading{
+    margin-top:0px;
+    font-weight: 700;
+    font-size: 1.65em;
+    text-align: center;
+    font-family: Chewy;
+}
+.main{
+    display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s;
+}
+
+  .btn1 {
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, rgba(117,43,255,1) 0%, rgb(6, 37, 43) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: white;
+    transition: none!important;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+    margin: auto;
+    font-family: 'Indie Flower';
+  }
+  #wicon{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  }
+ 
+  .weather-part .bottom-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+  }
+  h5{
+    text-align: center;
+    font-weight: bold;
+  }
+  .location{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .temp{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .weather{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .bottom-details .column{
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .column i{
+    color: #5DBBFF;
+    font-size: 40px;
+    float: left;
+  }
+  .column.humidity{
+    border-left: 1px solid #ccc;
+  }
+  .column .details{
+    margin-left: 3px;
+  }
+  .details .temp, .humidity span{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -3px;
+  }
+  .details .temp .deg{
+    margin: 0;
+    font-size: 17px;
+    padding: 0 2px 0 1px;
+  }
+  .column .details p{
+    font-size: 14px;
+    margin-top: -6px;
+  }
+  .humidity i{
+    font-size: 37px;
+  }
