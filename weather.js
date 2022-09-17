@@ -4,7 +4,6 @@ const renderData=(data)=>{
     let divElement=document.createElement('div');
     divElement.classList.add("col-3");
     divElement.classList.add("mx-3")
-    divElement.classList.add("col-sm-1");
     divElement.classList.add("card");
     divElement.classList.add("p-2");
     divClass=["main"];
