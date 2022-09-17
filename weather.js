@@ -32,7 +32,7 @@ const renderData=(data)=>{
 
 
     let btn1=document.createElement("button");
-    btn1.innerHTML="<i class='fa-solid fa-hand-pointer'></i>";
+    btn1.innerHTML="<i class='bx bxs-caret-up-circle'></i>";
     btn1Class=["btn1"];
     btn1Class.forEach((style)=>btn1.classList.add(style));
     divElement.appendChild(btn1);
